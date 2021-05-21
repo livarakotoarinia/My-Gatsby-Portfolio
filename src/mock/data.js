@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Liva .R portfolio', // e.g: 'Name | Developer'
+  lang: 'fr', // e.g: en, es, fr, jp
+  description: 'Bienvenue sur mon portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'my_img.png',
-  paragraphOne: 'Développeur passionné par l’apprentissage des nouveaux langages, je mets et fait évoluer mes compétences au service des clients et des différents projets effectuer dans la société. Je travail actuellement sur le développement du côté front (côté client) d’une application',
-  paragraphTwo: 'Mais je ne fais pas que développement, pour évacuer le stress du travail, j’aime lire des fanfictions et le cinéma.',
-  paragraphThree: 'Apprendre la langue et la culture Japonaise est une autre de mes passions. Refaire un voyage là bas serait une de mes ambitions.',
+  paragraphOne:
+    'Développeur passionné par l’apprentissage des nouveaux langages, je mets et fait évoluer mes compétences au service des clients et des différents projets effectuer dans la société. Je travail actuellement sur le développement du côté front (côté client) d’une application',
+  paragraphTwo:
+    'Mais je ne fais pas que développement, pour évacuer le stress du travail, j’aime lire des fanfictions et aller au cinéma.',
+  paragraphThree:
+    'Apprendre la langue et la culture Japonaise est une autre de mes passions. Refaire un voyage là bas serait une de mes ambitions.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,7 +33,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'eatzee.png',
     title: 'Eatzee',
-    info: 'Création d\'une application hybrid mobile, téléchargeable sur android et ios, de type Marmitton, qui regroupe différentes recettes de cuisine simple à faire en fonction du choix des ingrédients de l\'utilisateur',
+    info:
+      "Création d'une application hybrid mobile, téléchargeable sur android et ios, de type Marmitton, qui regroupe différentes recettes de cuisine simple à faire en fonction du choix des ingrédients de l'utilisateur",
     info2: '',
     url: 'https://eatzee.fr/',
     repo: '', // if no repo, the button will not show up
@@ -39,7 +43,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'netflix.png',
     title: 'Netflix Clone',
-    info: 'Un petit clone de netflix, développer avec Angular, qui regroupe les différents films du moment avec les trailers.',
+    info:
+      'Un petit clone de netflix, développer avec Angular, qui regroupe les différents films du moment avec les trailers.',
     info2: '',
     url: 'https://netflix-clone-ce1d3.web.app/',
     repo: 'https://github.com/livarakotoarinia/netflixClone', // if no repo, the button will not show up
@@ -57,7 +62,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'amazon.png',
     title: 'Amazon Clone',
-    info: 'Un petit clone d\'amazon en React qui permet de montrer quelques fonctionnalités telles que l\'ajout de produit dans un panier, la connexion grâce à firebase, suivi du panier, suppression de produit dans le panier ...',
+    info:
+      "Un petit clone d'amazon en React qui permet de montrer quelques fonctionnalités telles que l'ajout de produit dans un panier, la connexion grâce à firebase, suivi du panier, suppression de produit dans le panier ...",
     info2: '',
     url: 'https://clone-36d9e.web.app/',
     repo: 'https://github.com/livarakotoarinia/amazon-clone', // if no repo, the button will not show up
@@ -89,5 +95,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
