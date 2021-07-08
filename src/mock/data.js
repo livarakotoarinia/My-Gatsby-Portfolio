@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'my_img.png',
   paragraphOne:
-    'Développeur passionné par l’apprentissage des nouveaux langages, je mets et fait évoluer mes compétences au service des clients et des différents projets effectuer dans la société. Je travail actuellement sur le développement du côté front (côté client) d’une application',
+    'Développeur passionné par l’apprentissage des nouveaux langages, je mets et fait évoluer mes compétences au service des clients et des différents projets effectuer dans la société. Je travaille actuellement sur le développement du côté front (côté client) d’une application',
   paragraphTwo:
     'Mais je ne fais pas que développement, pour évacuer le stress du travail, j’aime lire des fanfictions et aller au cinéma.',
   paragraphThree:
